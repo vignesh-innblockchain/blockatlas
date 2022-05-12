@@ -1,9 +1,9 @@
 # Checklists & quick info
 
- - [Bug Reports](https://github.com/trustwallet/blockatlas/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
- - [Feature Requests](https://github.com/trustwallet/blockatlas/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
- - [Questions](https://github.com/trustwallet/blockatlas/blob/master/.github/ISSUE_TEMPLATE/question.md**)
- - [Adding a new coin](https://github.com/trustwallet/blockatlas/blob/master/.github/PULL_REQUEST_TEMPLATE/new_blockchain.md)
+ - [Bug Reports](https://github.com/vignesh-innblockchain/blockatlas/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+ - [Feature Requests](https://github.com/vignesh-innblockchain/blockatlas/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
+ - [Questions](https://github.com/vignesh-innblockchain/blockatlas/blob/master/.github/ISSUE_TEMPLATE/question.md**)
+ - [Adding a new coin](https://github.com/vignesh-innblockchain/blockatlas/blob/master/.github/PULL_REQUEST_TEMPLATE/new_blockchain.md)
 
 # Development info
 
@@ -34,7 +34,7 @@ or you can run manually: `TEST_CONFIG=$(TEST_CONFIG) TEST_COINS=$(TEST_COINS) go
 
 ## Error conventions
 
-Use [our error package](https://godoc.org/github.com/trustwallet/blockatlas/pkg/errors) for error handling
+Use [our error package](https://godoc.org/github.com/vignesh-innblockchain/blockatlas/pkg/errors) for error handling
 and follow Go [best practices](https://blog.golang.org/error-handling-and-go).
 All errors thrown in BlockAtlas should use our Error struct:
 
@@ -67,7 +67,7 @@ errors.New(err, errors.TypePlatformRequest, errors.Params{
 
 *All fatal errors emitted by logger package already send the error to *
 
-__[List of error types](https://godoc.org/github.com/trustwallet/blockatlas/pkg/errors#Type)__
+__[List of error types](https://godoc.org/github.com/vignesh-innblockchain/blockatlas/pkg/errors#Type)__
 
 ## Logging Conventions
 

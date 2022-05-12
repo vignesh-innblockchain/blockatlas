@@ -1,7 +1,7 @@
 package filecoin
 
 import (
-	"github.com/trustwallet/blockatlas/platform/filecoin/explorer"
+	"github.com/vignesh-innblockchain/blockatlas/platform/filecoin/explorer"
 	"github.com/trustwallet/golibs/types"
 )
 

@@ -3,10 +3,10 @@ package tokenindexer
 import (
 	"time"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/db/models"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/db/models"
 	"github.com/trustwallet/golibs/types"
 )
 

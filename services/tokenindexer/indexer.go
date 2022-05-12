@@ -5,9 +5,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/db/models"
-	"github.com/trustwallet/blockatlas/services/notifier"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/db/models"
+	"github.com/vignesh-innblockchain/blockatlas/services/notifier"
 	"github.com/trustwallet/golibs/types"
 )
 

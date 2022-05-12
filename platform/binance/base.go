@@ -1,7 +1,7 @@
 package binance
 
 import (
-	"github.com/trustwallet/blockatlas/platform/binance/staking"
+	"github.com/vignesh-innblockchain/blockatlas/platform/binance/staking"
 	"github.com/trustwallet/golibs/coin"
 )
 

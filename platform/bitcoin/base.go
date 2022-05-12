@@ -1,7 +1,7 @@
 package bitcoin
 
 import (
-	"github.com/trustwallet/blockatlas/platform/bitcoin/blockbook"
+	"github.com/vignesh-innblockchain/blockatlas/platform/bitcoin/blockbook"
 	"github.com/trustwallet/golibs/client"
 	"github.com/trustwallet/golibs/coin"
 	"github.com/trustwallet/golibs/network/middleware"

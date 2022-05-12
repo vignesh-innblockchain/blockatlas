@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/services/tokenindexer"
 	"github.com/trustwallet/golibs/types"
 )
 

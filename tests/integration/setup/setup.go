@@ -1,7 +1,7 @@
 package setup
 
 import (
-	"github.com/trustwallet/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/db"
 	"log"
 )
 

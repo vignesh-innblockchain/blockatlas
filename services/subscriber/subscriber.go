@@ -3,11 +3,11 @@ package subscriber
 import (
 	"encoding/json"
 
-	"github.com/trustwallet/blockatlas/internal"
+	"github.com/vignesh-innblockchain/blockatlas/internal"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/db"
 	"github.com/trustwallet/golibs/types"
 )
 

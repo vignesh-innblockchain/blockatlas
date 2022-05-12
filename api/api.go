@@ -5,10 +5,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-	"github.com/trustwallet/blockatlas/config"
-	_ "github.com/trustwallet/blockatlas/docs"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
+	"github.com/vignesh-innblockchain/blockatlas/config"
+	_ "github.com/vignesh-innblockchain/blockatlas/docs"
+	"github.com/vignesh-innblockchain/blockatlas/platform"
+	"github.com/vignesh-innblockchain/blockatlas/services/tokenindexer"
 )
 
 func SetupPlatformAPI(router gin.IRouter) {

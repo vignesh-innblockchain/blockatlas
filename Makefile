@@ -1,7 +1,7 @@
 #! /usr/bin/make -f
 
 # Project variables.
-PACKAGE := github.com/trustwallet/blockatlas
+PACKAGE := github.com/vignesh-innblockchain/blockatlas
 VERSION := $(shell git describe --tags 2>/dev/null || git describe --all)
 BUILD := $(shell git rev-parse --short HEAD)
 DATETIME := $(shell date +"%Y.%m.%d-%H:%M:%S")

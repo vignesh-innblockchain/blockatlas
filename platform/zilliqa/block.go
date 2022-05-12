@@ -3,7 +3,7 @@ package zilliqa
 import (
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
+	"github.com/vignesh-innblockchain/blockatlas/platform/zilliqa/viewblock"
 	"github.com/trustwallet/golibs/types"
 )
 

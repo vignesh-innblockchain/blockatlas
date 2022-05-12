@@ -1,8 +1,8 @@
 package zilliqa
 
 import (
-	"github.com/trustwallet/blockatlas/platform/zilliqa/rpc"
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
+	"github.com/vignesh-innblockchain/blockatlas/platform/zilliqa/rpc"
+	"github.com/vignesh-innblockchain/blockatlas/platform/zilliqa/viewblock"
 	"github.com/trustwallet/golibs/coin"
 )
 

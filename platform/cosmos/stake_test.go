@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/trustwallet/golibs/mock"

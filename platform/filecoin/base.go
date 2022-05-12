@@ -1,8 +1,8 @@
 package filecoin
 
 import (
-	"github.com/trustwallet/blockatlas/platform/filecoin/explorer"
-	"github.com/trustwallet/blockatlas/platform/filecoin/rpc"
+	"github.com/vignesh-innblockchain/blockatlas/platform/filecoin/explorer"
+	"github.com/vignesh-innblockchain/blockatlas/platform/filecoin/rpc"
 	"github.com/trustwallet/golibs/client"
 	"github.com/trustwallet/golibs/coin"
 	"github.com/trustwallet/golibs/network/middleware"

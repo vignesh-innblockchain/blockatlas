@@ -2,7 +2,7 @@ package platform
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 
 	gocache "github.com/patrickmn/go-cache"
 
-	"github.com/trustwallet/blockatlas/db/models"
+	"github.com/vignesh-innblockchain/blockatlas/db/models"
 )
 
 func (i *Instance) GetAsset(assetId string) (models.Asset, error) {

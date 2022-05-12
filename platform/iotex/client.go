@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 	"github.com/trustwallet/golibs/client"
 	"github.com/trustwallet/golibs/types"
 )

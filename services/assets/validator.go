@@ -3,7 +3,7 @@ package assets
 import (
 	"sort"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 	"github.com/trustwallet/golibs/coin"
 	"github.com/trustwallet/golibs/numbers"
 	"github.com/trustwallet/golibs/types"

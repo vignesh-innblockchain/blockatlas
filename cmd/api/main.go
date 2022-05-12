@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/trustwallet/blockatlas/internal/metrics"
+	"github.com/vignesh-innblockchain/blockatlas/internal/metrics"
 
 	golibsGin "github.com/trustwallet/golibs/network/gin"
 
@@ -11,13 +11,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/api"
-	"github.com/trustwallet/blockatlas/config"
-	"github.com/trustwallet/blockatlas/db"
-	_ "github.com/trustwallet/blockatlas/docs"
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
+	"github.com/vignesh-innblockchain/blockatlas/api"
+	"github.com/vignesh-innblockchain/blockatlas/config"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	_ "github.com/vignesh-innblockchain/blockatlas/docs"
+	"github.com/vignesh-innblockchain/blockatlas/internal"
+	"github.com/vignesh-innblockchain/blockatlas/platform"
+	"github.com/vignesh-innblockchain/blockatlas/services/tokenindexer"
 )
 
 const (

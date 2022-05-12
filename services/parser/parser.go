@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/trustwallet/blockatlas/db/models"
+	"github.com/vignesh-innblockchain/blockatlas/db/models"
 
 	"github.com/getsentry/raven-go"
 
@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 	"github.com/trustwallet/golibs/network/mq"
 	"github.com/trustwallet/golibs/numbers"
 	"github.com/trustwallet/golibs/types"

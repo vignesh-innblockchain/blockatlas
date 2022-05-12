@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/services/assets"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/services/assets"
 	"github.com/trustwallet/golibs/coin"
 
 	log "github.com/sirupsen/logrus"

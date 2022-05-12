@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/gin-contrib/cors"
-	"github.com/trustwallet/blockatlas/config"
+	"github.com/vignesh-innblockchain/blockatlas/config"
 	"github.com/trustwallet/golibs/network/mq"
 
 	"path/filepath"

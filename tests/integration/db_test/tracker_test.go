@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/blockatlas/tests/integration/setup"
+	"github.com/vignesh-innblockchain/blockatlas/tests/integration/setup"
 )
 
 func TestDb_SetBlock(t *testing.T) {

@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/trustwallet/blockatlas/config"
+	"github.com/vignesh-innblockchain/blockatlas/config"
 	"github.com/trustwallet/golibs/network/middleware"
 	"github.com/trustwallet/golibs/network/mq"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/blockatlas/platform"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/internal"
+	"github.com/vignesh-innblockchain/blockatlas/platform"
 )
 
 const (

@@ -1,9 +1,9 @@
 package ethereum
 
 import (
-	"github.com/trustwallet/blockatlas/platform/bitcoin/blockbook"
-	"github.com/trustwallet/blockatlas/platform/ethereum/bounce"
-	"github.com/trustwallet/blockatlas/platform/ethereum/opensea"
+	"github.com/vignesh-innblockchain/blockatlas/platform/bitcoin/blockbook"
+	"github.com/vignesh-innblockchain/blockatlas/platform/ethereum/bounce"
+	"github.com/vignesh-innblockchain/blockatlas/platform/ethereum/opensea"
 	"github.com/trustwallet/golibs/client"
 	"github.com/trustwallet/golibs/coin"
 	"github.com/trustwallet/golibs/network/middleware"

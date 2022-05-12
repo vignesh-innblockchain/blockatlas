@@ -8,8 +8,8 @@ import (
 
 	gocache "github.com/patrickmn/go-cache"
 	assert "github.com/stretchr/testify/assert"
-	"github.com/trustwallet/blockatlas/db/models"
-	"github.com/trustwallet/blockatlas/tests/integration/setup"
+	"github.com/vignesh-innblockchain/blockatlas/db/models"
+	"github.com/vignesh-innblockchain/blockatlas/tests/integration/setup"
 )
 
 func Test_AddNewAssets_Simple(t *testing.T) {

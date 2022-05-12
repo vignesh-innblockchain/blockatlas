@@ -11,13 +11,13 @@ import (
 
 	"github.com/trustwallet/golibs/network/middleware"
 
-	"github.com/trustwallet/blockatlas/config"
+	"github.com/vignesh-innblockchain/blockatlas/config"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/internal"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/parser"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/internal"
+	"github.com/vignesh-innblockchain/blockatlas/platform"
+	"github.com/vignesh-innblockchain/blockatlas/services/parser"
 	"github.com/trustwallet/golibs/network/mq"
 )
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 	"github.com/trustwallet/golibs/address"
 	"github.com/trustwallet/golibs/coin"
 	"github.com/trustwallet/golibs/numbers"

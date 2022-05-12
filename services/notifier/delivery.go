@@ -3,7 +3,7 @@ package notifier
 import (
 	"encoding/json"
 
-	"github.com/trustwallet/blockatlas/internal"
+	"github.com/vignesh-innblockchain/blockatlas/internal"
 	"github.com/trustwallet/golibs/types"
 
 	log "github.com/sirupsen/logrus"

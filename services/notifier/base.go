@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/db"
 	"github.com/trustwallet/golibs/types"
 )
 

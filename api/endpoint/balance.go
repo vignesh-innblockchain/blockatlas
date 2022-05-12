@@ -6,7 +6,7 @@ import (
 	// "strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 )
 
 // @Summary Get Balance

@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/streadway/amqp"
-	"github.com/trustwallet/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/db"
 	"github.com/trustwallet/golibs/network/mq"
 )
 

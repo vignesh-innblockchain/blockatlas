@@ -4,9 +4,9 @@ THIS REPO IS NO LONGER MAINTAINED
 
 ---
 
-![Go Version](https://img.shields.io/github/go-mod/go-version/TrustWallet/blockatlas)
-[![codecov](https://codecov.io/gh/trustwallet/blockatlas/branch/master/graph/badge.svg)](https://codecov.io/gh/trustwallet/blockatlas)
-[![Go Report Card](https://goreportcard.com/badge/trustwallet/blockatlas)](https://goreportcard.com/report/TrustWallet/blockatlas)
+![Go Version](https://img.shields.io/github/go-mod/go-version/vignesh-innblockchain/blockatlas)
+[![codecov](https://codecov.io/gh/vignesh-innblockchain/blockatlas/branch/master/graph/badge.svg)](https://codecov.io/gh/vignesh-innblockchain/blockatlas)
+[![Go Report Card](https://goreportcard.com/badge/vignesh-innblockchain/blockatlas)](https://goreportcard.com/report/vignesh-innblockchain/blockatlas)
 
 > BlockAtlas is a clean explorer API and transaction observer for cryptocurrencies.
 
@@ -67,8 +67,8 @@ The whole flow is not available at Atlas repo. We will have integration tests wi
 Download source to `GOPATH`
 
 ```shell
-go get -u github.com/trustwallet/blockatlas
-cd $(go env GOPATH)/src/github.com/trustwallet/blockatlas
+go get -u github.com/vignesh-innblockchain/blockatlas
+cd $(go env GOPATH)/src/github.com/vignesh-innblockchain/blockatlas
 ```
 
 #### Build and run

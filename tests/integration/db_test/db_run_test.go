@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/trustwallet/blockatlas/db"
-	"github.com/trustwallet/blockatlas/tests/integration/setup"
+	"github.com/vignesh-innblockchain/blockatlas/db"
+	"github.com/vignesh-innblockchain/blockatlas/tests/integration/setup"
 )
 
 var database *db.Instance

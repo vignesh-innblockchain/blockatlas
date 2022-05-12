@@ -1,10 +1,10 @@
 package algorand
 
 import (
-	"github.com/trustwallet/blockatlas/services/assets"
+	"github.com/vignesh-innblockchain/blockatlas/services/assets"
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 )
 
 func (p *Platform) GetActiveValidators() (blockatlas.StakeValidators, error) {

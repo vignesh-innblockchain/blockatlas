@@ -1,9 +1,9 @@
 package binance
 
 import (
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/platform/binance/staking"
-	"github.com/trustwallet/blockatlas/services/assets"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/platform/binance/staking"
+	"github.com/vignesh-innblockchain/blockatlas/services/assets"
 )
 
 const (

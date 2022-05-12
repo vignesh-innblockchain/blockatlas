@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/trustwallet/blockatlas/db/models"
+	"github.com/vignesh-innblockchain/blockatlas/db/models"
 	"gorm.io/gorm/clause"
 )
 

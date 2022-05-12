@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/api/endpoint"
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
-	"github.com/trustwallet/blockatlas/platform"
-	"github.com/trustwallet/blockatlas/services/tokenindexer"
+	"github.com/vignesh-innblockchain/blockatlas/api/endpoint"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/platform"
+	"github.com/vignesh-innblockchain/blockatlas/services/tokenindexer"
 	"github.com/trustwallet/golibs/network/middleware"
 )
 

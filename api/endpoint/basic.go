@@ -2,7 +2,7 @@ package endpoint
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/trustwallet/blockatlas/internal"
+	"github.com/vignesh-innblockchain/blockatlas/internal"
 	"net/http"
 )
 

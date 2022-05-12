@@ -6,7 +6,7 @@ import (
 
 	"github.com/trustwallet/golibs/network/middleware"
 
-	"github.com/trustwallet/blockatlas/pkg/blockatlas"
+	"github.com/vignesh-innblockchain/blockatlas/pkg/blockatlas"
 	"github.com/trustwallet/golibs/client"
 )
 

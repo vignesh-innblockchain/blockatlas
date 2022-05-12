@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/trustwallet/blockatlas/platform/zilliqa/rpc"
-	"github.com/trustwallet/blockatlas/platform/zilliqa/viewblock"
+	"github.com/vignesh-innblockchain/blockatlas/platform/zilliqa/rpc"
+	"github.com/vignesh-innblockchain/blockatlas/platform/zilliqa/viewblock"
 )
 
 func TxFromRpc(t rpc.Tx, header rpc.BlockHeader) *viewblock.Tx {
