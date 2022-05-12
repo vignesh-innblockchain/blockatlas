@@ -50,6 +50,16 @@ func (c *Client) GetTokens(address string) ([]Token, error) {
 	return res.Tokens, err
 }
 
+// Balance
+
+func (c *Client) GetBalance(address string) (Balance, error) {
+	var res Balance
+	path := fmt.Sprintf("api/v2/address/%s", address)
+	query := url.Values{"details": {"basic"}}
+	err := c.Get(&res, path, query)
+	return res, err
+}
+
 // Transactions
 func (c *Client) GetAllTransactionsByBlockNumber(num int64) ([]Transaction, error) {
 	page := int64(1)

@@ -16,6 +16,11 @@ type Blockbook struct {
 	InSync     bool  `json:"inSync"`
 }
 
+type Balance struct {
+	Address string `json:"address"`
+	Balance string `json:"balance"`
+}
+
 type TokenTransfer struct {
 	Decimals uint   `json:"decimals"`
 	From     string `json:"from"`

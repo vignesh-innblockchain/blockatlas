@@ -16,6 +16,10 @@ func (p *Platform) GetTokenListByAddress(address string) ([]types.Token, error) 
 	return p.client.GetTokenList(address, p.CoinIndex)
 }
 
+func (p *Platform) GetBalanceByAddress(address string) (string, error) {
+	return p.client.GetBalanceByAddress(address, p.CoinIndex)
+}
+
 func (p *Platform) GetTokenListIdsByAddress(address string) ([]string, error) {
 	assets, err := p.GetTokenListByAddress(address)
 	if err != nil {

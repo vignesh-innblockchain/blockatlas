@@ -32,5 +32,6 @@ func NormalizeToken(srcToken *Token, coinIndex uint) types.Token {
 		Coin:     coinIndex,
 		Decimals: srcToken.Decimals,
 		Type:     types.GetEthereumTokenTypeByIndex(coinIndex),
+		Balance:    srcToken.Balance,
 	}
 }

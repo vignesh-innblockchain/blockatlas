@@ -1,6 +1,7 @@
 package blockbook
 
 import (
+	"encoding/json"
 	"strings"
 
 	Address "github.com/trustwallet/golibs/address"
@@ -22,6 +23,16 @@ func (c *Client) GetTokenTxs(address, token string, coinIndex uint) (types.Txs, 
 		return nil, err
 	}
 	return NormalizePage(page, address, token, coinIndex), nil
+}
+
+func (c *Client) GetBalanceByAddress(address string, coinIndex uint) (string, error) {
+	result, err := c.GetBalance(address)
+	resultJson := types.Balance{
+		Address: result.Address,
+		Balance: result.Balance,
+	}
+	res, _ := json.Marshal(resultJson)
+	return string(res), err
 }
 
 func NormalizePage(srcPage TransactionsList, address, token string, coinIndex uint) (txs types.Txs) {

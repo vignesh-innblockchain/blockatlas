@@ -1,6 +1,7 @@
 package bitcoin
 
 import (
+	"encoding/json"
 	"sort"
 
 	"github.com/trustwallet/blockatlas/platform/bitcoin/blockbook"
@@ -54,6 +55,16 @@ func (p *Platform) getTxsByAddress(address string) (types.Txs, error) {
 	addressSet.Add(address)
 	txs := normalizeTxs(sourceTxs, p.CoinIndex, addressSet)
 	return txs, nil
+}
+
+func (p *Platform) GetBalanceByAddress(address string) (string, error) {
+	result, err := p.client.GetBalance(address)
+	resultJson := types.Balance{
+		Address: result.Address,
+		Balance: result.Balance,
+	}
+	res, _ := json.Marshal(resultJson)
+	return string(res), err
 }
 
 func normalizeTxs(sourceTxs blockbook.TransactionsList, coinIndex uint, addressSet mapset.Set) types.Txs {

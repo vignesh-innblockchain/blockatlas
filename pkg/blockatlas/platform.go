@@ -18,6 +18,12 @@ type (
 		GetBlockByNumber(num int64) (*types.Block, error)
 	}
 
+	// BalanceAPI
+	BalanceAPI interface {
+		Platform
+		GetBalanceByAddress(address string) (string, error)
+	}
+
 	// TxAPI provides transaction lookups based on address
 	TxAPI interface {
 		Platform

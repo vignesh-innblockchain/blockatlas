@@ -8,6 +8,7 @@ type EthereumClient interface {
 	GetTokenList(address string, coinIndex uint) ([]types.Token, error)
 	GetCurrentBlockNumber() (int64, error)
 	GetBlockByNumber(num int64, coinIndex uint) (*types.Block, error)
+	GetBalanceByAddress(address string, coinIndex uint) (string, error)
 }
 
 type CollectibleClient interface {

@@ -47,6 +47,15 @@ func RegisterBlockAPI(router gin.IRouter, api blockatlas.Platform) {
 	}
 }
 
+func RegisterBalanceAPI(router gin.IRouter, api blockatlas.Platform) {
+	handle := api.Coin().Handle
+	if balanceAPI, ok := api.(blockatlas.BalanceAPI); ok {
+		router.GET("/v2/"+handle+"/balance/:address", func(c *gin.Context) {
+			endpoint.GetBalanceByAddress(c, balanceAPI)
+		})
+	}
+}
+
 func RegisterTokensAPI(router gin.IRouter, api blockatlas.Platform) {
 	tokenAPI, ok := api.(blockatlas.TokensAPI)
 	if !ok {

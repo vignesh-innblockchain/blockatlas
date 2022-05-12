@@ -6,7 +6,7 @@ gin:
 # If all - run all platforms in one binary. You can pick specific coin handle to run binary only with specific coin
 # Example: ethereum
 # You can see all the coin handles at coins/coins.yml file
-platform: [ all ]
+platform: [ bitcoin, ethereum, smartchain ]
 
 # The transaction watcher
 observer:
@@ -22,7 +22,7 @@ observer:
     url: amqp://localhost:5672
 
 postgres:
-  url: postgresql://user:pass@localhost/blockatlas?sslmode=disable
+  url: postgresql://blockatlas:pass@localhost/blockatlas?sslmode=disable
   log: false
 
 consumer:
@@ -56,7 +56,7 @@ tezos:
 
 # [ETH] Ethereum: https://ethereum.org
 ethereum:
-  api: https://eth1.trezor.io
+  api: https://ethblockexplorer.org # https://eth1.trezor.io
   collections_api: https://api.opensea.io
   #  collections_api_key: [opensea_api_key]
 
@@ -146,7 +146,7 @@ fio:
 
 # [BTC] Bitcoin: https://bitcoin.org/ (Blockbook API https://github.com/trezor/blockbook)
 bitcoin:
-  api: https://btc1.trezor.io
+  api: https://bitcoinblockexplorers.com # https://btc1.trezor.io
 
 litecoin:
   api: https://ltc1.trezor.io
@@ -220,7 +220,7 @@ oasis:
   api: https://oasis.atlas.zondax.ch
 
 smartchain:
-  api: ""
+  api: "https://bscxplorer.com"
   collections_api: https://nftview.bounce.finance
 
 sentry:
