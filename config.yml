@@ -56,7 +56,9 @@ tezos:
 
 # [ETH] Ethereum: https://ethereum.org
 ethereum:
-  api: https://ethblockexplorer.org # https://eth1.trezor.io
+  api: https://ethblockexplorer.org # Mainnet # https://eth1.trezor.io
+  # api: https://142.93.234.8 # Ropsten Testnet
+  # api: https://eth-local-explorer.sandbox.nash.io # Ropsten Testnet
   collections_api: https://api.opensea.io
   #  collections_api_key: [opensea_api_key]
 
@@ -146,7 +148,8 @@ fio:
 
 # [BTC] Bitcoin: https://bitcoin.org/ (Blockbook API https://github.com/trezor/blockbook)
 bitcoin:
-  api: https://bitcoinblockexplorers.com # https://btc1.trezor.io
+  # api: https://bitcoinblockexplorers.com # Mainnet # https://btc1.trezor.io
+  api: https://tbtc1.blockbook.bitaccess.net # Testnet
 
 litecoin:
   api: https://ltc1.trezor.io
